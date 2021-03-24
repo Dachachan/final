@@ -6,7 +6,7 @@ import '../App.css';
 
 function Main(props) {
     const [imagefind, setImage] = useState();
-    const clientId = "hSRLLoas8sVquoRITdA0x2znbka-IMJD8cieZjfEe4M";
+    const clientId = "3v-5e_yB533b2tSJkTDDmN5o7UBoI_2-NF7QnJg00Nc";
     const [result, setResult] = useState([]);
     const onClick = (event) => {
         setImage(event.target.value);
@@ -24,12 +24,7 @@ function Main(props) {
 
         <body>
             <div class="containers">
-               
-
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
                 <input type="text" name="image" class="search" onClick={onClick} placeholder="search photo" />
-
-
                 {
                     result.map(image => (
 
